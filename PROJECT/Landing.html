@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kaffeine</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; 
+        }
+
+        .landing {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            height: 100vh;
+            text-align: center;
+            background-image: linear-gradient(to bottom, rgba(154, 123, 79, 0.3), 
+                            rgba(154, 123, 79, 0.9)), url("coffeebeans.jpg");
+            background-size: cover;
+            background-size: cover;
+            background-position: center;
+            color: beige;
+            background-color: #9a7b4f;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .description {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+
+        input[type="button"] {
+            background: #4b371c;
+            border-color: transparent;
+            color: beige;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+
+        input[type="button"]:hover {
+            background-color: #80471c;
+        }
+    </style>
+</head>
+<body>
+    <div class="landing">
+        <div class="header">
+            <img src="logo4.jpg" style="width: 200px;">
+            <h3>Your daily dose of caffeinated joy awaits</h3>
+        </div>
+        <p class="description">Welcome to KAFFEINE Cafe, where you can experience the finest selection of coffees and enjoy a cozy atmosphere. Join us today and indulge in the world of exquisite flavors.</p>
+        <input type="button" value="Login" onclick="location.href='Login.php';">
+    </div>
+</body>
+</html>
